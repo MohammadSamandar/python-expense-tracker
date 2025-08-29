@@ -1,9 +1,3 @@
-Of course. Here's a simple and straightforward README file in English.
-
-You can create a new file in your project folder named `README.md` and copy the text below into it.
-
------
-
 # Simple Python Expense Tracker
 
 A minimalist, text-based application to track daily expenses, built with Python. This project was started as a practice exercise and is currently under development.
