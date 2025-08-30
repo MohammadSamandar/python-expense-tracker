@@ -63,36 +63,42 @@ def display_all_expenses(tracker):
 my_main_tracker = ExpenseTracker()
 
 
-while True:
+
+
+
+
+
+if __name__ == '__main__':
+
+
+
+    while True:
 
   
-    print('\n --- Expense tracker menu ---')
-    print('1. Add expense')
-    print('2. Show all expenses')
-    print('3. Exit')
+        print('\n --- Expense tracker menu ---')
+        print('1. Add expense')
+        print('2. Show all expenses')
+        print('3. Exit')
 
 
-    choice = input('choose an option please (1-3): ')
+        choice = input('choose an option please (1-3): ')
 
 
-    if choice == '1':
+        if choice == '1':
 
-        add_expense_by_user(my_main_tracker)
+            add_expense_by_user(my_main_tracker)
         
 
-    elif choice == '2':
+        if choice == '2':
 
-        display_all_expenses(my_main_tracker)
+            display_all_expenses(my_main_tracker)
 
         
-    elif choice == '3':
+        elif choice == '3':
 
-        print('Good Bye')
-        break
+            print('Good Bye')
+            break
 
-    else:
-        print('Invalid input. Please try again.')
-
-
-
+        else:
+            print('Invalid input. Please try again.')
 
